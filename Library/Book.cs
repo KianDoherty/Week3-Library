@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Library
+﻿namespace Library
 {
     public class Book
     {
@@ -17,7 +13,7 @@ namespace Library
             this.ISBN = bookISBN;
         }
 
-        void DisplayInfo()
+        public void DisplayInfo()
         {
             Console.WriteLine($"Book title: {Title}");
             Console.WriteLine($"Book Author: {Author}");
